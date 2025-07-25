@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
-import { menuItems } from "../data/menuItems"; // array of item objects
+import { menuItems } from "../data/menuItems";
 import { ShoppingCart } from "lucide-react";
 import NotificationBell from "../components/NotificationBell";
 

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import banner from "./../assets/banner.png";
 import vd from "./../assets/vd1.mp4";
 
 const Banner = () => {
