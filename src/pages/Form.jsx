@@ -76,7 +76,7 @@ const Form = () => {
         <input
           type="number"
           name="snackQty"
-          placeholder="Snack Quantity"
+          placeholder="Snack quantity"
           value={form.snackQty}
           onChange={handleChange}
           className="w-full p-2 rounded outline-none"
@@ -115,7 +115,7 @@ const Form = () => {
           className="w-full p-2 rounded outline-none"
           required
         >
-          <option value="">Who Submit?</option>
+          <option value="" disabled>Who Submit?</option>
           <option value="p1">Player 1</option>
           <option value="p2">Player 2</option>
           <option value="p3">Player 3</option>

@@ -16,7 +16,6 @@ const HomePage = () => {
       <BestSelling />
       <CustomerReviews />
       <UpToDate />
-      <Footer />
     </div>
   );
 };

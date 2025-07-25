@@ -4,10 +4,12 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
-import Facilities from "./pages/Facilities";
 import Login from "./pages/Login";
 import Form from "./pages/Form";
 import Table from "./pages/Table";
+import Cart from "./pages/Cart";
+import Footer from "./components/Footer";
+import ThankYou from "./pages/ThankYou";
 
 function App() {
   return (
@@ -18,13 +20,15 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/about" element={<About />} />
-        <Route path="/facilities" element={<Facilities />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/thank-you" element={<ThankYou />} />
 
         {/* Admin Pages */}
         <Route path="/login" element={<Login />} />
         <Route path="/form" element={<Form />} />
         <Route path="/table" element={<Table />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
