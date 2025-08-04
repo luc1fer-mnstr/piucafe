@@ -23,7 +23,7 @@ const NotificationBell = () => {
 
   return (
     <Link to="/cart" className="relative">
-      <Bell className="text-white w-6 h-6" />
+      <Bell className="text-blue-400 w-12 h-12" />
       {itemCount > 0 && (
         <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
           {itemCount}

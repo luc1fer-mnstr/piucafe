@@ -66,7 +66,7 @@ const Menu = () => {
         ))}
       </div>
 
-      <div className="fixed bottom-8 right-8 flex items-center justify-end gap-4">
+      <div className="fixed top-20 right-8 flex items-center justify-end gap-4">
         <NotificationBell />
       </div>
     </div>
