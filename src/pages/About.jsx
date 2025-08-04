@@ -47,7 +47,7 @@ const About = () => {
         </p>
 
         <div className="mt-6 text-sm text-[#5a3e2c]">
-          Location: Corner of Peace Street & Sunset Lane, Yangon<br />
+          Location: Inside Phaund Daw Oo, 19th, 59x60st, Nanshae, Mandalay<br />
           Open Daily: 8:00 AM – 8:00 PM
         </div>
       </div>
