@@ -2,7 +2,7 @@ import cappuccino from "../assets/cappuccino.jpg";
 import espresso from "../assets/espresso.jpg";
 import americano from "../assets/americano.jpg";
 
-export const menuItems = [
+const menuItems = [
   {
     id: 1,
     name: "Cappuccino",
@@ -52,3 +52,5 @@ export const menuItems = [
     image: americano,
   },
 ];
+
+export default menuItems
