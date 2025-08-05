@@ -27,7 +27,7 @@ const Banner = () => {
             Experience The Rich And Bold Flavors Of Our Exquisite Coffee Blends, Crafted To Awaken Your Senses And Start Your Day Right
           </p>
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-            <button className="bg-transparent border border-white text-white py-3 px-6 rounded-lg shadow-lg hover:bg-white hover:bg-opacity-20 transition duration-300 flex items-center justify-center space-x-2">
+            <button className="bg-red-500 border border-white text-white py-3 px-6 rounded-lg shadow-lg hover:bg-red-700 hover:bg-opacity-20 transition duration-300 flex items-center justify-center space-x-2">
               <Link to="/menu"><span>Order Now</span></Link>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

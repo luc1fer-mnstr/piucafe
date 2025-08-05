@@ -18,7 +18,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#f5e9d5]">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#f5e9d5]">
       <form
         onSubmit={handleLogin}
         className="bg-[#d6a76c] p-8 rounded shadow-md w-full max-w-sm space-y-4"
@@ -45,6 +45,7 @@ const Login = () => {
           Login
         </button>
       </form>
+      <p className="mt-4">This is only for admin to login.</p>
     </div>
   );
 };

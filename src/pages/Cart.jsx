@@ -125,7 +125,8 @@ const Cart = () => {
 
           {/* Customer Info Form */}
           <div className="bg-white p-6 rounded-lg shadow mt-10">
-            <h3 className="text-xl font-semibold mb-4 text-black">Customer Info</h3>
+            <h3 className="text-xl font-semibold mb-4 text-black">Customer Information</h3>
+            <p className="mb-4 bg-yellow-100">Kindly specify your preferred date and time.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="text"
